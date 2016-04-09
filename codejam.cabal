@@ -20,6 +20,7 @@ library
                      , PrelimBPancakes
                      , PrelimCJamCoins
   build-depends:       base >= 4.7 && < 5
+                     , arithmoi >= 0.4
                      , classy-prelude
                      , containers
                      , text
