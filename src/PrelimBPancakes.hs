@@ -51,9 +51,6 @@ solve' i ps correctDir = ("solve called with case: i = " <> show i <> ", ps = " 
 
 solve2 :: I -> PancakeStack -> CorrectDirection -> (Flips, PancakeStack)
 solve2 i ps dir
-    -- | Vector.null (snd $ ignoreCorrect dir ps) = ("null case: i = " <> show i <> ", ps = " <> show ps) `trace` (i, ps)
-    -- | = ("null case: i = " <> show i <> ", ps = " <> show ps) `trace` (i, ps)
-    -- | Vector.length ps == 1 && Vector.head ps == reverseDir dir = ("third case: i = " <> show i) `trace` (i + 1, ps)
     | i > 15 = error "too much"
     | otherwise =
         let (correct, wrong) = ignoreCorrect dir ps
