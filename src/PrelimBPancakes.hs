@@ -1,5 +1,5 @@
 
-module PrelimBPancakes where
+module PrelimBPancakes (pancakesDefaultMain) where
 
 import ClassyPrelude
 
