@@ -84,7 +84,3 @@ jamCoinsDefaultMain = do
         allFactors = fmap findAllFactors allCandidates
     forM_ (zip allCandidates allFactors) $ \(candidate, factors) ->
         putStrLn $ pack (candidateToString candidate) <> " " <> unwords (fmap tshow factors)
-
-    --     in case fmap solve maybeStack of
-    --         Just int -> putStrLn $ "Case #" <> tshow i <> ": " <> tshow int
-    --         Nothing -> putStrLn $ "error, could not solve, case #" <> tshow i <> ", line: " <> line
