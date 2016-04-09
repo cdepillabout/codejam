@@ -1,5 +1,5 @@
 
-module PrelimASheep where
+module PrelimASheep (sheepDefaultMain) where
 
 import ClassyPrelude
 
