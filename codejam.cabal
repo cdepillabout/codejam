@@ -23,6 +23,7 @@ library
                      , Round1ABRankAndFile
   build-depends:       base >= 4.7 && < 5
                      , arithmoi >= 0.4
+                     , array
                      , classy-prelude
                      , containers
                      , text
