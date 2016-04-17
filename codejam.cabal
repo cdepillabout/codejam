@@ -19,6 +19,8 @@ library
                      , PrelimASheep
                      , PrelimBPancakes
                      , PrelimCJamCoins
+                     , Round1AALastWord
+                     , Round1ABRankAndFile
   build-depends:       base >= 4.7 && < 5
                      , arithmoi >= 0.4
                      , classy-prelude

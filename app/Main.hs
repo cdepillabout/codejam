@@ -6,6 +6,7 @@ import Prelude
 import PrelimASheep
 import PrelimBPancakes
 import PrelimCJamCoins
+import Round1AALastWord
 
 main :: IO ()
-main = jamCoinsDefaultMain
+main = lastWordDefaultMain
